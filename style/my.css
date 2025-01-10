@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    align-items: center;
+    margin-top: 25px;
+}
+h1{
+    font-size: 20px;
+}
+.num1{
+    color: darkred;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 14px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+a:hover{
+    cursor:all-scrolls;
+    background-color: rgb(132, 171, 244);
+    transition: 4;
+}
+nav ul li a button{
+    background-color: rgb(163, 232, 209);
+    border-radius: 3px;
+}
+.main-div-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.dib1{
+    margin-top: 20px;
+    
+}
+.num2{
+    opacity: 0.6;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.num3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.num4{
+    text-align: center;
+    opacity: 0.8;
+    padding: 8px;
+}
+.num5{
+    border: none;
+    background-color: rgb(71, 71, 250);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.div2{
+    text-align: center;
+}
+.sic-1{
+    background-image: url("/picture/pexels-photo-301717.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.main-div-2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 200px;
+    margin: 100px;
+    border-radius: 50px;
+}
+.num6{
+    text-align: center;
+    opacity: 0.8;
+    margin-top:20px ;
+}
+.num7{
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+.div4{
+    padding:35px;
+    margin: 50x;
+    background-color: rgb(236, 229, 219);
+    box-shadow: 1px 2px;
+}
+.num8{
+    padding: 10px;
+    border-radius: 30px;
+
+}
+.num9{
+  margin-right: 5px
+}
+.num10{
+
+}
+.num11{
+   ;
+}
+.div6{
+   
+}
+.sci-2{
+    background-color: rgb(193, 239, 240);
+    margin: 20px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+.div{
+    text-align: center;
+}
+.main-div-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    
+}
+.sic-4{
+    background-color:rgb(102, 92, 92) ;
+    margin: 20px;
+    border-radius: 20px;
+    color:rgb(240, 213, 213);
+}
+.h4n{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.h4n:hover{
+    text-decoration: underline;
+    transition: 3s;
+}
+.pn{
+    margin-bottom: 4px;
+    text-align: center;
+}
+.non1{
+display: flex; 
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+
+}
+.non2{
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+.btn2{
+    background-color: rgb(102, 255, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn2:hover{
+    background-color: palegoldenrod;
+    cursor: pointer;
+}
