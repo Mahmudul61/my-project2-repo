@@ -5,7 +5,7 @@
 nav{
     display: flex;
     justify-content: center;
-    gap: 400px;
+    gap: 100px;
     align-items: center;
     margin-top: 25px;
 }
@@ -29,17 +29,21 @@ nav ul li a{
 }
 a:hover{
     cursor:all-scrolls;
-    background-color: rgb(132, 171, 244);
-    transition: 4;
+    color:white;
+    background-color: rgb(24, 83, 35);
+    transition: 4s;
 }
 nav ul li a button{
     background-color: rgb(163, 232, 209);
     border-radius: 3px;
+    padding: 5px;
+    border: none;
+    font-size: 12px;
 }
 .main-div-1{
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 .dib1{
     margin-top: 20px;
@@ -86,6 +90,7 @@ nav ul li a button{
     margin: 100px;
     border-radius: 50px;
 }
+
 .num6{
     text-align: center;
     opacity: 0.8;
@@ -177,4 +182,46 @@ margin-bottom: 20px;
 .btn2:hover{
     background-color: palegoldenrod;
     cursor: pointer;
+}
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-div-1{
+        flex-direction: column;
+    }
+    .main-div-2{
+        flex-direction: column;
+
+    }
+    .main-div-5{
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-div-1{
+        flex-direction: column;
+    }
+    .main-div-2{
+        flex-direction: column;
+
+    }
+    .main-div-5{
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: hidden;
+    }
 }
